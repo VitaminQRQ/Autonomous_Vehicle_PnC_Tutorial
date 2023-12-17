@@ -1,6 +1,6 @@
 # README
 
-A simple tutorial on autonomous vehicle planning and control and is easy to integrate this project with airsim or carla by modifiying the './lib/vehicle_simulator.py' with simulator API. 
+A simple tutorial on autonomous vehicle planning and control and is easy to integrate this project with AIRSIM or CARLA by modifying the `./lib/vehicle_simulator.py` with simulator API. 
 
 - **A Star Global Planner**
 - **Lattice Local Planner**
