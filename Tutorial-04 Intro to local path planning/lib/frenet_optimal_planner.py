@@ -382,7 +382,7 @@ class FrenetOptimalPlanner:
         
         self.min_terminal_v_ = parameters.min_terminal_v_ # 最小减速到 0
         self.max_terminal_v_ = parameters.max_terminal_v_ # 最快加速到 60 km/h
-        self.num_terminal_v_ = parameters.num_terminal_t_ # 速度采样的个数
+        self.num_terminal_v_ = parameters.num_terminal_v_ # 速度采样的个数
         self.num_terminal_v_ = int(self.num_terminal_v_)
         
         self.min_terminal_d_ = parameters.min_terminal_d_ # 左侧最大偏移量
