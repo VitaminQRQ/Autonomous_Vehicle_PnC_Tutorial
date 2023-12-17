@@ -140,7 +140,7 @@ if __name__ == '__main__':
     sim_vehilce = sim.Vehicle(wheel_base, vehicle_state)
 
     # 设置仿真条件
-    total_sim_time = 10
+    total_sim_time = 300
     sample_time    = 0.1
     sim_time       = np.arange(0, total_sim_time, sample_time)
 
@@ -251,5 +251,5 @@ if __name__ == '__main__':
                                       )
                                   )
     
-    ani.save('./media/trajectory.mp4', writer='ffmpeg', fps=30)     
+    ani.save('./media/trajectory.gif', writer='pillow', fps=30)     
     print("Done!")
