@@ -15,4 +15,4 @@ pip install numpy opencv-python scipy pyastar2d matplotlib
 
 ## Final Result
 
-![Funny GIF](./Tutorial-04%20Intro%20to%20local%20path%20planning/media/trajectory.gif)
+![Funny GIF](./Tutorial-04%20Intro%20to%20local%20path%20planning/media/output.png)
